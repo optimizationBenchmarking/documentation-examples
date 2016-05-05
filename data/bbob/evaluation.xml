@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<e:evaluation
+	xmlns:e="http://www.optimizationBenchmarking.org/formats/evaluationConfiguration/evaluationConfiguration.1.0.xsd"
+	xmlns:cfg="http://www.optimizationBenchmarking.org/formats/configuration/configuration.1.0.xsd">
+	<cfg:configuration>
+		<cfg:parameter name="figureSize" value="2 per row" />
+	</cfg:configuration>
+	<e:module
+		class="org.optimizationBenchmarking.evaluator.evaluation.impl.description.instances.InstanceInformation">
+		<cfg:configuration>
+			<cfg:parameter name="figureSize" value="2 per row" />
+			<cfg:parameter name="condGrouping" value="powers" />
+			<cfg:parameter name="makeLegendFigure" value="true" />
+			<cfg:parameter name="groupBy" value="cond" />
+		</cfg:configuration>
+	</e:module>
+	<e:module
+		class="org.optimizationBenchmarking.evaluator.evaluation.impl.all.ecdf.AllECDF">
+		<cfg:configuration>
+			<cfg:parameter name="figureSize" value="page wide" />
+			<cfg:parameter name="xAxis" value="lg FEs" />
+			<cfg:parameter name="yAxis" value="F" />
+			<cfg:parameter name="goal" value="1E-8" />
+		</cfg:configuration>
+	</e:module>
+	<e:module
+		class="org.optimizationBenchmarking.evaluator.evaluation.impl.all.ecdf.AllECDF">
+		<cfg:configuration>
+			<cfg:parameter name="grouping" value="instances by feature values" />
+			<cfg:parameter name="xAxis" value="lg FEs" />
+			<cfg:parameter name="yAxis" value="F" />
+			<cfg:parameter name="groupBy" value="dim" />
+			<cfg:parameter name="goal" value="1E-8" />
+			<cfg:parameter name="dimGrouping" value="powers" />
+		</cfg:configuration>
+	</e:module>
+	<e:module
+		class="org.optimizationBenchmarking.evaluator.evaluation.impl.all.ecdf.AllECDF">
+		<cfg:configuration>
+			<cfg:parameter name="grouping" value="instances by feature values" />
+			<cfg:parameter name="groupBy" value="nopt" />
+			<cfg:parameter name="xAxis" value="lg FEs" />
+			<cfg:parameter name="yAxis" value="F" />
+			<cfg:parameter name="goal" value="1E-5" />
+		</cfg:configuration>
+	</e:module>
+	<e:module
+		class="org.optimizationBenchmarking.evaluator.evaluation.impl.all.aggregation2D.AllAggregation2D">
+		<cfg:configuration>
+			<cfg:parameter name="grouping" value="instances by feature values" />
+			<cfg:parameter name="xAxis" value="lg(FEs/dim&#xb2;)" />
+			<cfg:parameter name="yAxis" value="F" />
+			<cfg:parameter name="yAxisTransformation" value="lg result" />
+			<cfg:parameter name="aggregate" value="median" />
+			<cfg:parameter name="groupBy" value="sep" />
+		</cfg:configuration>
+	</e:module>
+	<e:module
+		class="org.optimizationBenchmarking.evaluator.evaluation.impl.all.aggregation2D.AllAggregation2D">
+		<cfg:configuration>
+			<cfg:parameter name="grouping" value="instances by feature values" />
+			<cfg:parameter name="xAxis" value="lg(FEs/dim)" />
+			<cfg:parameter name="yAxis" value="F" />
+			<cfg:parameter name="yAxisTransformation" value="lg result" />
+			<cfg:parameter name="aggregate" value="stddev" />
+			<cfg:parameter name="groupBy" value="sep" />
+		</cfg:configuration>
+	</e:module>
+</e:evaluation>

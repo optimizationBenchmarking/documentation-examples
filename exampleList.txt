@@ -1,6 +1,6 @@
 [,] maxSat
 MAX-3SAT
-The <a href="https://github.com/optimizationBenchmarking/documentation-examples/blob/master/data/maxSat/README.md">MAX-3SAT</a> example data set contains results from a few simple experiments on the, well, <a href="https://en.wikipedia.org/wiki/MAX-3SAT">MAX-3SAT</a> problem. The MAX-3SAT problem is a well-known combinatorial optimization problem, where the goal is to find a bit string which makes a certain Boolean expression become true (here: by minimizing the number of false clauses in said expression). We investigate six simple <a href="https://en.wikipedia.org/wiki/Hill_climbing">Hill Climbing</a> algorithms on 100 of the satisfiable <a href="http://www.cs.ubc.ca/~hoos/SATLIB/benchm.html">SATLIB</a> benchmark instances.
+<p>The <a href="https://github.com/optimizationBenchmarking/documentation-examples/blob/master/data/maxSat/README.md">MAX-3SAT</a> example data set contains results from a few simple experiments on the, well, <a href="https://en.wikipedia.org/wiki/MAX-3SAT">MAX-3SAT</a> problem. The MAX-3SAT problem is a well-known combinatorial optimization problem, where the goal is to find a bit string which makes a certain Boolean expression become true (here: by minimizing the number of false clauses in said expression).</p><p>We investigate six simple <a href="https://en.wikipedia.org/wiki/Hill_climbing">Hill Climbing</a> algorithms on 100 of the satisfiable <a href="http://www.cs.ubc.ca/~hoos/SATLIB/benchm.html">SATLIB</a> benchmark instances.</p>
 
 [,] bbob
 (Numerical) Black-Box Optimization Benchmarking (BBOB) 2013

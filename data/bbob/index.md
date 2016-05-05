@@ -1,5 +1,5 @@
 ---
-layout: main
+layout: default
 title: The BBOB Example
 permalink: /data/bbob/
 ---
@@ -11,7 +11,7 @@ In this folder, we provide an example application of the *optimizationBenchmarki
 
 This example is structured as follows
 
-1. The archive [`results.zip`](https://raw.githubusercontent.com/optimizationBenchmarking/documentation-examples/master/data/bbob/results.zip) contains the results of these algorithms.
+1. The archive [`results.zip`](results.zip) contains the results of these algorithms.
 
 ## 2. BBOB and COCO
 
@@ -21,7 +21,7 @@ The example data used here was gathered by other researchers following the COCO 
 
 ## 3. Experimental Data
 
-The algorithms are described [here](http://coco.gforge.inria.fr/doku.php?id=bbob-2013-algorithms) and were investigated independently by their respective authors.
+The algorithms are described [here](http://coco.gforge.inria.fr/doku.php?id=bbob-2013-algorithms) and were investigated independently by their respective authors. We do not claim, own, or assume any responsibility, copyright, authorship, or liability for any of the data provided here.
 
 <table>
 <tr><th style="text-align:left;vertical-align:top">1.&nbsp;<a href="http://coco.gforge.inria.fr/data-archive/2013/GA-100_holtschulte_noiseless.tgz"><code>holtschulte2013_ga100</code></a></th>
@@ -89,7 +89,7 @@ Thanh-Do Tran, Dimo Brockhoff, and Bilel Derbel.
 
 ## 4. License
 
-The copyright of the datasets belong to their respective owners. The file [`results.zip`](https://raw.githubusercontent.com/optimizationBenchmarking/documentation-examples/master/data/bbob/results.zip) is thus excempt from this project's general licensing terms.
+The copyright of the datasets belong to their respective owners. The file [`results.zip`](results.zip) is thus excempt from this project's general licensing terms.
 
 ## References
 1. Nikolaus Hansen, Anne Auger, Steffen Finck, and Raymond Ros. *Real-parameter black-box optimization benchmarking: Experimental setup*. Technical report, Orsay, France: Université Paris Sud, Institut National de Recherche en Informatiqué et en Automatique INRIA) Futurs, Equipe TAO, March 24, 2012. [URL](http://coco.lri.fr/BBOB-downloads/download11.05/bbobdocexperiment.pdf).

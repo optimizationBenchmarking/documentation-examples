@@ -1,5 +1,5 @@
 ---
-layout: main
+layout: default
 title: The MAX-3SAT Example
 permalink: /data/maxSat/
 ---
@@ -11,9 +11,9 @@ Here we use the *optimizationBenchmarking* framework to investigate the results 
 
 This example is structured as follows
 
-1. The archive [`benchmarks.zip`](https://raw.githubusercontent.com/optimizationBenchmarking/documentation-examples/master/data/maxSat/benchmarks.zip) contains some benchmark instances for the MAX-3SAT problem from the popular [SATLIB](http://www.cs.ubc.ca/~hoos/SATLIB/benchm.html) benchmark instance set.
-2. The archive [`sources.zip`](https://raw.githubusercontent.com/optimizationBenchmarking/documentation-examples/master/data/maxSat/sources.zip) contains some simple `Java` "solvers" to solve these MAX-3SAT instances. These "solvers" (notice the quotes) are not an attempt to actually solve the problems well - they are quite stupid and primitive. But they are easy to understand, which is the goal of the example. They also illustrate how data can be gathered in log files which can later be loaded into the evaluator.
-3. The archive [`results.zip`](https://raw.githubusercontent.com/optimizationBenchmarking/documentation-examples/master/data/maxSat/results.zip) contains the results of these algorithms. 
+1. The archive [`benchmarks.zip`](benchmarks.zip) contains some benchmark instances for the MAX-3SAT problem from the popular [SATLIB](http://www.cs.ubc.ca/~hoos/SATLIB/benchm.html) benchmark instance set.
+2. The archive [`sources.zip`](sources.zip) contains some simple `Java` "solvers" to solve these MAX-3SAT instances. These "solvers" (notice the quotes) are not an attempt to actually solve the problems well - they are quite stupid and primitive. But they are easy to understand, which is the goal of the example. They also illustrate how data can be gathered in log files which can later be loaded into the evaluator.
+3. The archive [`results.zip`](results.zip) contains the results of these algorithms. 
 
 ## 2. The MAX-3SAT Problem
 
