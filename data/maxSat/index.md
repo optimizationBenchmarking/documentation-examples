@@ -1,7 +1,7 @@
 ---
 layout: main
 title: The MAX-3SAT Example
-permalink: /maxSat/
+permalink: /data/maxSat/
 ---
 # The MAX-3SAT Example
 

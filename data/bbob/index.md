@@ -1,7 +1,7 @@
 ---
 layout: main
 title: The BBOB Example
-permalink: /bbob/
+permalink: /data/bbob/
 ---
 # The BBOB Example
 

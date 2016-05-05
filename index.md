@@ -1,7 +1,7 @@
 ---
-layout: main
+layout: default
 title: Optimization Benchmarking Examples
-permalink: /index.html
+permalink: /
 ---
 
 Here we present example data sets and setups for the testing out the *optimizationBenchmarking* framework.
