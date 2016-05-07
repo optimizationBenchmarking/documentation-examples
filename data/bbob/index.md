@@ -11,7 +11,13 @@ In this folder, we provide an example application of the *optimizationBenchmarki
 
 This example is structured as follows
 
-1. The archive [`results.zip`](results.zip) contains the results of these algorithms.
+1. The archive [`results.zip`](results.zip) contains the results of these algorithms. These results are stored in the format native to COCO without any modification except that we left away files that our system does not need to make the example smaller.
+2. The file [`evaluation.xml`](evaluation.xml) contains an example evaluation definition. We apply a set of different modules and configurations.
+3. The file [`configForIEEEEtran.xml`](configForIEEEEtran.xml) is a configuration that applies [`evaluation.xml`](evaluation.xml) to the [results](results.zip) and renders the output as LaTeX document styled according to `IEEEtran.cls` into a folder named `reports/LaTeX/IEEEtran/`. 
+6. The file [`configForLNCS.xml`](configForLNCS.xml) is a configuration that applies [`evaluation.xml`](evaluation.xml) to the [results](results.zip) and renders the output as LaTeX document styled according to `LLNCS.cls` into a folder named `reports/LaTeX/LNCS/`.
+6. The file [`configForSigAlternate.xml`](configForSigAlternate.xml) is a configuration that applies [`evaluation.xml`](evaluation.xml) to the [results](results.zip) and renders the output as LaTeX document styled according to `sig-alternate.cls` into a folder named `reports/LaTeX/SigAlternate/`.
+6. The file [`configForXHTML.xml`](configForXHTML.xml) is a configuration that applies [`evaluation.xml`](evaluation.xml) to the [results](results.zip) and renders the output as XHTML document into a folder named `reports/XHTML/`.
+6. The file [`configForExport.xml`](configForExport.xml) is a configuration that applies [`evaluation.xml`](evaluation.xml) to the [results](results.zip) and renders the output as text (for import into other tools) into a folder named `reports/export/`.
 
 ## 2. BBOB and COCO
 

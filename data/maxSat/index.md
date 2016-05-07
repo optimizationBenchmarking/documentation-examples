@@ -11,9 +11,18 @@ Here we use the *optimizationBenchmarking* framework to investigate the results 
 
 This example is structured as follows
 
-1. The archive [`benchmarks.zip`](benchmarks.zip) contains some benchmark instances for the MAX-3SAT problem from the popular [SATLIB](http://www.cs.ubc.ca/~hoos/SATLIB/benchm.html) benchmark instance set.
-2. The archive [`sources.zip`](sources.zip) contains some simple `Java` "solvers" to solve these MAX-3SAT instances. These "solvers" (notice the quotes) are not an attempt to actually solve the problems well - they are quite stupid and primitive. But they are easy to understand, which is the goal of the example. They also illustrate how data can be gathered in log files which can later be loaded into the evaluator.
-3. The archive [`results.zip`](results.zip) contains the results of these algorithms. 
+1. The archive [`results.zip`](results.zip) contains the results of six simple hill climbing setups with different operators and restart policies on the selected MAX-3SAT problem [instances](benchmarks.zip).
+2. The archive [`results-meatadata-1.0.zip`](results-meatadata-1.0.zip) contains the meta data about the algorithm setups, benchmark instances, and measurement dimensions. This data tells the system what algorithm parameter values were applied in the experiments, what features the benchmark instances have, and what the structure of the result text files is. 
+3. The file [`evaluation.xml`](evaluation.xml) contains an example evaluation definition. We apply a set of different modules and configurations.
+4. The file [`configForIEEEEtran.xml`] is a configuration that applies [`evaluation.xml`](evaluation.xml) to the [results](results.zip) and renders the output as LaTeX document styled according to `IEEEtran.cls` into a folder named `reports/LaTeX/IEEEtran/`. 
+5. The file [`configForIEEEEtran.xml`](configForIEEEEtran.xml) is a configuration that applies [`evaluation.xml`](evaluation.xml) to the [results](results.zip) and renders the output as LaTeX document styled according to `IEEEtran.cls` into a folder named `reports/LaTeX/IEEEtran/`.
+6. The file [`configForLNCS.xml`](configForLNCS.xml) is a configuration that applies [`evaluation.xml`](evaluation.xml) to the [results](results.zip) and renders the output as LaTeX document styled according to `LLNCS.cls` into a folder named `reports/LaTeX/LNCS/`.
+6. The file [`configForSigAlternate.xml`](configForSigAlternate.xml) is a configuration that applies [`evaluation.xml`](evaluation.xml) to the [results](results.zip) and renders the output as LaTeX document styled according to `sig-alternate.cls` into a folder named `reports/LaTeX/SigAlternate/`.
+6. The file [`configForXHTML.xml`](configForXHTML.xml) is a configuration that applies [`evaluation.xml`](evaluation.xml) to the [results](results.zip) and renders the output as XHTML document into a folder named `reports/XHTML/`.
+6. The file [`configForExport.xml`](configForExport.xml) is a configuration that applies [`evaluation.xml`](evaluation.xml) to the [results](results.zip) and renders the output as text (for import into other tools) into a folder named `reports/export/`.
+3. The archive [`benchmarks.zip`](benchmarks.zip) contains some benchmark instances for the MAX-3SAT problem from the popular [SATLIB](http://www.cs.ubc.ca/~hoos/SATLIB/benchm.html) benchmark instance set. This is just for information, you don't need that for the automatic evaluation of the experiments.
+4. The archive [`sources.zip`](sources.zip) contains some simple `Java` "solvers" to solve these MAX-3SAT instances. These "solvers" (notice the quotes) are not an attempt to actually solve the problems well - they are quite stupid and primitive. But they are easy to understand, which is the goal of the example. They also illustrate how data can be gathered in log files which can later be loaded into the evaluator. This is just for information, you don't need that for the automatic evaluation of the experiments.
+ 
 
 ## 2. The MAX-3SAT Problem
 
