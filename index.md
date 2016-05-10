@@ -6,8 +6,9 @@ permalink: /
 
 Here we present example data sets and setups for the testing out the *optimizationBenchmarking* framework.
 
-1. [Maximum Satisfiability Problem](data/maxSat) (combinatorial)
-2. [Black-Box Optimization Benchmarking](data/bbob) (numerical)
+1. [Maximum Satisfiability Problem](data/maxSat) (combinatorial, logic)
+2. [Black-Box Optimization Benchmarking](data/bbob) (numerical, function optimization)
+3. [Traveling Salesman Problem](data/tspSuite) (combinatorial, logistics)
 
 ## Licensing
 
