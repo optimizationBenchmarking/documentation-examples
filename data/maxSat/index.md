@@ -1,20 +1,19 @@
 ---
 layout: default
-title: The MAX-3SAT Example
-permalink: /data/maxSat/
+title: The TSP Suite Example
+permalink: /data/tspSuite/
 ---
-# The MAX-3SAT Example
+# The TSP Suite Example
 
-Here we use the *optimizationBenchmarking* framework to investigate the results of some simple algorithms applied to the [MAX-3SAT](http://en.wikipedia.org/wiki/MAX-3SAT) problem.
+Here we provide an example data set from several algorithms solving the Traveling Salesman Problem (TSP) gathered with the [TSP Suite](https://github.com/optimizationBenchmarking/tspSuite). The TSP Suite is the direct predecessor of the  *optimizationBenchmarking.org* framework.
 
 ## 1. Example Structure
 
 This example is structured as follows
 
-1. The archive [`results.zip`](results.zip) contains the results of six simple hill climbing setups with different operators and restart policies on the selected MAX-3SAT problem [instances](benchmarks.zip).
-2. The archive [`results-meatadata-1.0.zip`](results-meatadata-1.0.zip) contains the meta data about the algorithm setups, benchmark instances, and measurement dimensions. This data tells the system what algorithm parameter values were applied in the experiments, what features the benchmark instances have, and what the structure of the result text files is. 
+1. The archive [`results.zip`](results.zip) contains the results of eleven algorithms setups with different operators and restart policies on the selected TSP problem [instances](benchmarks.zip).
 3. The file [`evaluation.xml`](evaluation.xml) contains an example evaluation definition. We apply a set of different modules and configurations.
-4. The file [`configForIEEEEtran.xml`] is a configuration that applies [`evaluation.xml`](evaluation.xml) to the [results](results.zip) and renders the output as LaTeX document styled according to `IEEEtran.cls` into a folder named `reports/LaTeX/IEEEtran/`. 
+4. The file [`configForIEEEEtran.xml`](configForIEEEEtran.xml) is a configuration that applies [`evaluation.xml`](evaluation.xml) to the [results](results.zip) and renders the output as LaTeX document styled according to `IEEEtran.cls` into a folder named `reports/LaTeX/IEEEtran/`. 
 5. The file [`configForIEEEEtran.xml`](configForIEEEEtran.xml) is a configuration that applies [`evaluation.xml`](evaluation.xml) to the [results](results.zip) and renders the output as LaTeX document styled according to `IEEEtran.cls` into a folder named `reports/LaTeX/IEEEtran/`.
 6. The file [`configForLNCS.xml`](configForLNCS.xml) is a configuration that applies [`evaluation.xml`](evaluation.xml) to the [results](results.zip) and renders the output as LaTeX document styled according to `LLNCS.cls` into a folder named `reports/LaTeX/LNCS/`.
 6. The file [`configForSigAlternate.xml`](configForSigAlternate.xml) is a configuration that applies [`evaluation.xml`](evaluation.xml) to the [results](results.zip) and renders the output as LaTeX document styled according to `sig-alternate.cls` into a folder named `reports/LaTeX/SigAlternate/`.
