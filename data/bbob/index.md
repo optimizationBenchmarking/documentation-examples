@@ -31,61 +31,61 @@ The algorithms are described [here](http://coco.gforge.inria.fr/doku.php?id=bbob
 
 <table>
 <tr><th style="text-align:left;vertical-align:top">1.&nbsp;<a href="http://coco.gforge.inria.fr/data-archive/2013/GA-100_holtschulte_noiseless.tgz"><code>holtschulte2013_ga100</code></a></th>
-<td>
+<td  style="text-align:left;vertical-align:top">
 Neal Holtschulte and Melanie Moses.
 <a href="http://coco.gforge.inria.fr/lib/exe/fetch.php?media=pdf2013:w0309-holtschulte.pdf">Benchmarking Cellular Genetic Algorithms on the BBOB Noiseless Testbed</a>. GECCO'13 Companion, July 6–10, 2013, Amsterdam, The Netherlands. ACM 978-1-4503-1964-5/13/07</td>
 </tr>
 
 <tr><th style="text-align:left;vertical-align:top">2.&nbsp;<a href="http://coco.gforge.inria.fr/data-archive/2013/HILL_holtschulte_noiseless.tgz"><code>holtschulte2013_hill</code></a></th>
-<td>
+<td  style="text-align:left;vertical-align:top">
 Neal Holtschulte and Melanie Moses.
 <a href="http://coco.gforge.inria.fr/lib/exe/fetch.php?media=pdf2013:w0309-holtschulte.pdf">Benchmarking Cellular Genetic Algorithms on the BBOB Noiseless Testbed</a>. GECCO'13 Companion, July 6–10, 2013, Amsterdam, The Netherlands. ACM 978-1-4503-1964-5/13/07</td>
 </tr>
 
 <tr><th style="text-align:left;vertical-align:top">3.&nbsp;<a href="http://coco.gforge.inria.fr/data-archive/2013/CMAES_Hutter_hutter_noiseless.tgz"><code>hutter2013_CMAES</code></a></th>
-<td>
+<td  style="text-align:left;vertical-align:top">
 Frank Hutter, Holger Hoos, and Kevin Leyton-Brown.
 <a href="http://coco.gforge.inria.fr/lib/exe/fetch.php?media=pdf2013:w0311-hutter.pdf">An Evaluation of Sequential Model-Based Optimization for Expensive Blackbox Functions</a>. GECCO'13 Companion, July 6–10, 2013, Amsterdam, The Netherlands. ACM 978-1-4503-1964-5/13/07</td>
 </tr>
 
 <tr><th style="text-align:left;vertical-align:top">4.&nbsp;<a href="http://coco.gforge.inria.fr/data-archive/2013/IP_liao_noiseless.tgz"><code>liao2013_IPOP</code></a></th>
-<td>
+<td  style="text-align:left;vertical-align:top">
 Tianjun Liao and Thomas Stützle.
 <a href="http://coco.gforge.inria.fr/lib/exe/fetch.php?media=pdf2013:w0305-liao.pdf">Testing the Impact of Parameter Tuning on a Variant of IPOP-CMA-ES with a Bounded Maximum Population Size on the Noiseless BBOB Testbed</a>. GECCO'13 Companion, July 6–10, 2013, Amsterdam, The Netherlands. ACM 978-1-4503-1964-5/13/07</td>
 </tr>
 
 <tr><th style="text-align:left;vertical-align:top">5.&nbsp;<a href="http://coco.gforge.inria.fr/data-archive/2013/texp_liao_noiseless.tgz"><code>liao2013_IPOP-texp</code></a></th>
-<td>
+<td  style="text-align:left;vertical-align:top">
 Tianjun Liao and Thomas Stützle.
 <a href="http://coco.gforge.inria.fr/lib/exe/fetch.php?media=pdf2013:w0305-liao.pdf">Testing the Impact of Parameter Tuning on a Variant of IPOP-CMA-ES with a Bounded Maximum Population Size on the Noiseless BBOB Testbed</a>. GECCO'13 Companion, July 6–10, 2013, Amsterdam, The Netherlands. ACM 978-1-4503-1964-5/13/07</td>
 </tr>
 
 <tr><th style="text-align:left;vertical-align:top">6.&nbsp;<a href="http://coco.gforge.inria.fr/data-archive/2013/DE_Pal_pal_noiseless.tgz"><code>pal2013_DE</code></a></th>
-<td>
+<td  style="text-align:left;vertical-align:top">
 László Pál.
 <a href="http://coco.gforge.inria.fr/lib/exe/fetch.php?media=pdf2013:w0302-pal.pdf">Benchmarking a Hybrid Multi Level Single Linkage Algorithm on the BBOB Noiseless Testbed</a>. GECCO'13 Companion, July 6–10, 2013, Amsterdam, The Netherlands. ACM 978-1-4503-1964-5/13/07</td>
 </tr>
 
 <tr><th style="text-align:left;vertical-align:top">7.&nbsp;<a href="http://coco.gforge.inria.fr/data-archive/2013/fmincon_pal_noiseless.tgz"><code>pal2013_fmincon</code></a></th>
-<td>
+<td  style="text-align:left;vertical-align:top">
 László Pál.
 <a href="http://coco.gforge.inria.fr/lib/exe/fetch.php?media=pdf2013:w0303-pal.pdf">Comparison of Multistart Global Optimization Algorithms on the BBOB Noiseless Testbed</a>. GECCO'13 Companion, July 6–10, 2013, Amsterdam, The Netherlands. ACM 978-1-4503-1964-5/13/07</td>
 </tr>
 
 <tr><th style="text-align:left;vertical-align:top">8.&nbsp;<a href="http://coco.gforge.inria.fr/data-archive/2013/HMLSL_pal_noiseless.tgz"><code>pal2013_HMLSL</code></a></th>
-<td>
+<td  style="text-align:left;vertical-align:top">
 László Pál.
 <a href="http://coco.gforge.inria.fr/lib/exe/fetch.php?media=pdf2013:w0302-pal.pdf">Benchmarking a Hybrid Multi Level Single Linkage Algorithm on the BBOB Noiseless Testbed</a>. GECCO'13 Companion, July 6–10, 2013, Amsterdam, The Netherlands. ACM 978-1-4503-1964-5/13/07</td>
 </tr>
 
 <tr><th style="text-align:left;vertical-align:top">9.&nbsp;<a href="http://coco.gforge.inria.fr/data-archive/2013/simplex_pal_noiseless.tgz"><code>pal2013_simplex</code></a></th>
-<td>
+<td  style="text-align:left;vertical-align:top">
 László Pál.
 <a href="http://coco.gforge.inria.fr/lib/exe/fetch.php?media=pdf2013:w0303-pal.pdf">Comparison of Multistart Global Optimization Algorithms on the BBOB Noiseless Testbed</a>. GECCO'13 Companion, July 6–10, 2013, Amsterdam, The Netherlands. ACM 978-1-4503-1964-5/13/07</td>
 </tr>
 
 <tr><th style="text-align:left;vertical-align:top">10.&nbsp;<a href="http://coco.gforge.inria.fr/data-archive/2013/P-DCN_tran_noiseless.tgz"><code>P-DCN</code></a></th>
-<td>
+<td  style="text-align:left;vertical-align:top">
 Thanh-Do Tran, Dimo Brockhoff, and Bilel Derbel.
 <a href="http://coco.gforge.inria.fr/lib/exe/fetch.php?media=pdf2013:w0312-tran.pdf">Multiobjectivization with NSGA-II on the Noiseless BBOB Testbed</a>. GECCO'13 Companion, July 6–10, 2013, Amsterdam, The Netherlands. ACM 978-1-4503-1964-5/13/07</td>
 </tr>
