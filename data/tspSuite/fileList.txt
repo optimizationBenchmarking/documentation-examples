@@ -1,0 +1,7 @@
+[,] results.zip
+[,] evaluation.xml
+[,] configForExport.xml
+[,] configForIEEEtran.xml
+[,] configForLNCS.xml
+[,] configForSigAlternate.xml
+[,] configForXHTML.xml
