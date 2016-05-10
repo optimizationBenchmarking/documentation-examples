@@ -6,6 +6,7 @@
 	<cfg:configuration>
 		<cfg:parameter name="figureSize" value="2 per row" />
 		<cfg:parameter name="makeLegendFigure" value="false" />
+    <cfg:parameter name="nGrouping" value="powers of 2" />
 	</cfg:configuration>
 
 	<e:module class="description.instances.InstanceInformation" />
