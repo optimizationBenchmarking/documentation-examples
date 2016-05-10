@@ -5,7 +5,7 @@ permalink: /data/tspSuite/
 ---
 # The TSP Suite Example
 
-Here we provide an example data set from several algorithms solving the Traveling Salesman Problem ([TSP](https://en.wikipedia.org/wiki/Travelling_salesman_problem)) gathered with the [TSP Suite](https://github.com/optimizationBenchmarking/tspSuite). The TSP Suite&nbsp;[1] is the direct predecessor of the  *optimizationBenchmarking.org* framework. Here we conduct experiments based on the 68 smallest-scale symmetric benchmark instances from the [TSPLib](www.iwr.uni-heidelberg.de/groups/comopt/software/TSPLIB95/) benchmark set.
+Here we provide an example data set from several algorithms solving the Traveling Salesman Problem ([TSP](https://en.wikipedia.org/wiki/Travelling_salesman_problem)) gathered with the [TSP Suite](https://github.com/optimizationBenchmarking/tspSuite). The TSP Suite&nbsp;[1] is the direct predecessor of the  *optimizationBenchmarking.org* framework. Here we conduct experiments based on the 68 smallest-scale symmetric benchmark instances from the [TSPLib](www.iwr.uni-heidelberg.de/groups/comopt/software/TSPLIB95/) benchmark set&nbsp;[2].
 
 ## 1. Example Structure
 
@@ -26,7 +26,7 @@ This example is structured as follows
 The [TSP](https://en.wikipedia.org/wiki/Travelling_salesman_problem) is maybe the oldest and most well-known combinatorial optimization problem. Given are *n* cities. A salesman starts at one of these cities. He wants to visit all other cities (each exactly once) and then return to his origin. The question for the shortest tour that he can take to realize this travel is [NP-hard](https://en.wikipedia.org/wiki/NP-hard) and the best exact algorithms for solving this problem need a runtime exponential in *n* to find the best-possible solution in the worst case.
 
 
-## 3. Benchmark Problems for the MAX-3SAT Example
+## 3. Benchmark Problems for the TSP Suite Example
 
 As benchmark problems for our TSP example, we use some instances from the well-known [TSPLib](www.iwr.uni-heidelberg.de/groups/comopt/software/TSPLIB95/)&nbsp;[2]. We pick the 68 smallest-scale instances from 110 symmetric instances to run out experiments.
 
