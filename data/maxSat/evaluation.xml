@@ -53,7 +53,7 @@
       <cfg:parameter name="groupByValuesOf" value="n" />
       <cfg:parameter name="minGroups" value="4" />
       <cfg:parameter name="maxGroups" value="8" />
-      <cfg:parameter name="nValueGroupingStructure" value="powers" />
+      <cfg:parameter name="valueGroupingStructure" value="powers" />
 			<cfg:parameter name="xAxis" value="lg RT" />
 			<cfg:parameter name="yAxis" value="F/k" />
 			<cfg:parameter name="aggregate" value="standard deviation" />
