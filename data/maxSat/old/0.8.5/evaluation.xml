@@ -4,13 +4,17 @@
 	xmlns:cfg="http://www.optimizationBenchmarking.org/formats/configuration/configuration.1.0.xsd">
 	<cfg:configuration>
 		<cfg:parameter name="figureSize" value="2 per row" />
+		<cfg:parameter name="kGrouping" value="distinct" />
+		<cfg:parameter name="nGrouping" value="distinct" />
 	</cfg:configuration>
 	<e:module
 		class="org.optimizationBenchmarking.evaluator.evaluation.impl.description.instances.InstanceInformation">
 		<cfg:configuration>
 			<cfg:parameter name="figureSize" value="2 per row" />
-			<cfg:parameter name="kValueGroupingStructure" value="distinct" />
-			<cfg:parameter name="nValueGroupingStructure" value="distinct" />
+			<cfg:parameter name="kGrouping" value="distinct" />
+			<cfg:parameter name="nGrouping" value="distinct" />
+			<cfg:parameter name="makeLegendFigure" value="true" />
+			<cfg:parameter name="groupBy" value="k" />
 		</cfg:configuration>
 	</e:module>
 	<e:module
@@ -26,37 +30,33 @@
 		class="org.optimizationBenchmarking.evaluator.evaluation.impl.all.ecdf.AllECDF">
 		<cfg:configuration>
 			<cfg:parameter name="grouping" value="instances by feature values" />
-      <cfg:parameter name="groupByValuesOf" value="n" />
-      <cfg:parameter name="minGroups" value="3" />
-      <cfg:parameter name="maxGroups" value="5" />
+			<cfg:parameter name="nGrouping" value="3 to 5" />
 			<cfg:parameter name="xAxis" value="lg RT" />
 			<cfg:parameter name="yAxis" value="F" />
+			<cfg:parameter name="groupBy" value="n" />
 			<cfg:parameter name="goal" value="1" />
 		</cfg:configuration>
 	</e:module>
 	<e:module
 		class="org.optimizationBenchmarking.evaluator.evaluation.impl.all.aggregation2D.AllAggregation2D">
 		<cfg:configuration>
-      <cfg:parameter name="grouping" value="instances by feature values" />
-      <cfg:parameter name="groupByValuesOf" value="k" />
-      <cfg:parameter name="minGroups" value="4" />
-      <cfg:parameter name="maxGroups" value="8" />
+			<cfg:parameter name="kGrouping" value="4 to 8" />
+			<cfg:parameter name="grouping" value="instances by feature values" />
 			<cfg:parameter name="xAxis" value="lg(FEs/n)" />
 			<cfg:parameter name="yAxis" value="F" />
 			<cfg:parameter name="aggregate" value="median" />
+			<cfg:parameter name="groupBy" value="k" />
 		</cfg:configuration>
 	</e:module>
 	<e:module
 		class="org.optimizationBenchmarking.evaluator.evaluation.impl.all.aggregation2D.AllAggregation2D">
 		<cfg:configuration>
 			<cfg:parameter name="grouping" value="instances by feature values" />
-      <cfg:parameter name="groupByValuesOf" value="n" />
-      <cfg:parameter name="minGroups" value="4" />
-      <cfg:parameter name="maxGroups" value="8" />
-      <cfg:parameter name="nValueGroupingStructure" value="powers" />
+			<cfg:parameter name="nGrouping" value="3 to 8 powers" />
 			<cfg:parameter name="xAxis" value="lg RT" />
 			<cfg:parameter name="yAxis" value="F/k" />
 			<cfg:parameter name="aggregate" value="standard deviation" />
+			<cfg:parameter name="groupBy" value="n" />
 		</cfg:configuration>
 	</e:module>
 </e:evaluation>

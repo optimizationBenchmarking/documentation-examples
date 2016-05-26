@@ -1,6 +1,7 @@
 [,] results.zip
 [,] results-metadata-1.0.zip
-[,] evaluation.xml
+[,0.8.5] old/0.8.5/evaluation.xml
+[0.8.6,] evaluation.xml
 [,] configForExport.xml
 [,] configForIEEEtran.xml
 [,] configForLNCS.xml
