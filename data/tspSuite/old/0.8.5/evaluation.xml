@@ -6,7 +6,7 @@
 	<cfg:configuration>
 		<cfg:parameter name="figureSize" value="2 per row" />
 		<cfg:parameter name="makeLegendFigure" value="false" />
-      <cfg:parameter name="nValueGroupingStructure" value="powers of 2" />
+    <cfg:parameter name="nGrouping" value="powers of 2" />
 	</cfg:configuration>
 
 	<e:module class="description.instances.InstanceInformation" />
@@ -31,22 +31,22 @@
 
 	<e:module class="all.aggregation2D.AllAggregation2D">
 		<cfg:configuration>
-      <cfg:parameter name="grouping" value="instances by feature values"/>
-      <cfg:parameter name="groupByValuesOf" value="n" />
 			<cfg:parameter name="xAxis" value="lg(FEs/n²)" />
 			<cfg:parameter name="yAxis" value="F" />
 			<cfg:parameter name="aggregate" value="median" />
+			<cfg:parameter name="grouping" value="instances by feature values"/>
+			<cfg:parameter name="groupBy" value="n" />
 			<cfg:parameter name="makeLegendFigure" value="true" />
 		</cfg:configuration>
 	</e:module>
 
 	<e:module class="all.aggregation2D.AllAggregation2D">
 		<cfg:configuration>
-      <cfg:parameter name="grouping" value="instances by feature values"/>
-      <cfg:parameter name="groupByValuesOf" value="n" />
 			<cfg:parameter name="xAxis" value="lg(FEs/n²)" />
 			<cfg:parameter name="yAxis" value="F" />
 			<cfg:parameter name="aggregate" value="median" />
+			<cfg:parameter name="grouping" value="instances by feature values"/>
+			<cfg:parameter name="groupBy" value="n" />
 			<cfg:parameter name="maxY" value="0.05" />
 			<cfg:parameter name="groupBy" value="n" />
 			<cfg:parameter name="makeLegendFigure" value="true" />
