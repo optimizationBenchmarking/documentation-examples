@@ -22,6 +22,17 @@
 			<cfg:parameter name="goal" value="0" />
 		</cfg:configuration>
 	</e:module>
+  <e:module
+    class="org.optimizationBenchmarking.evaluator.evaluation.impl.all.ecdf.AllECDF">
+    <cfg:configuration>
+      <cfg:parameter name="grouping" value="instances by feature values" />
+      <cfg:parameter name="groupByValuesOf" value="n" />
+      <cfg:parameter name="nValueGroupingStructure" value="distinct" />
+      <cfg:parameter name="xAxis" value="lg RT" />
+      <cfg:parameter name="yAxis" value="F" />
+      <cfg:parameter name="goal" value="1" />
+    </cfg:configuration>
+  </e:module>
 	<e:module
 		class="org.optimizationBenchmarking.evaluator.evaluation.impl.all.ecdf.AllECDF">
 		<cfg:configuration>
@@ -30,7 +41,7 @@
       <cfg:parameter name="minGroups" value="3" />
       <cfg:parameter name="maxGroups" value="5" />
 			<cfg:parameter name="xAxis" value="lg RT" />
-			<cfg:parameter name="yAxis" value="F" />
+			<cfg:parameter name="yAxis" value="F/k" />
 			<cfg:parameter name="goal" value="1" />
 		</cfg:configuration>
 	</e:module>
