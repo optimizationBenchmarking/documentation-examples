@@ -18,7 +18,7 @@
 		<cfg:configuration>
 			<cfg:parameter name="figureSize" value="page wide" />
 			<cfg:parameter name="xAxis" value="lg FEs" />
-			<cfg:parameter name="yAxis" value="F/k" />
+			<cfg:parameter name="yAxis" value="F" />
 			<cfg:parameter name="goal" value="0" />
 		</cfg:configuration>
 	</e:module>
@@ -42,7 +42,7 @@
       <cfg:parameter name="maxGroups" value="5" />
 			<cfg:parameter name="xAxis" value="lg RT" />
 			<cfg:parameter name="yAxis" value="F/k" />
-			<cfg:parameter name="goal" value="1" />
+			<cfg:parameter name="goal" value="0.01" />
 		</cfg:configuration>
 	</e:module>
 	<e:module
