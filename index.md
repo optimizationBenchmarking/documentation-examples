@@ -6,7 +6,7 @@ permalink: /
 
 # Examples
 
-Here we present example data sets and setups for the testing out the *optimizationBenchmarking* framework. These examples can directly be installed by the <a href="https://github.com/optimizationBenchmarking/evaluator-gui/releases/download/{{ site.guiVersion }}/evaluatorGui.jar">GUI</a> or the <a href="https://github.com/optimizationBenchmarking/documentation-examples-loader/releases">downloader</a>.
+Here we present example data sets and setups for the testing out the {{ site.projectNameStyled }} framework. These examples can directly be installed by the <a href="https://github.com/optimizationBenchmarking/evaluator-gui/releases/download/{{ site.guiVersion }}/evaluatorGui.jar">GUI</a> or the <a href="https://github.com/optimizationBenchmarking/documentation-examples-loader/releases">downloader</a>.
 
 1. [Maximum Satisfiability Problem](data/maxSat) (combinatorial, logic)
 2. [Black-Box Optimization Benchmarking](data/bbob) (numerical, function optimization)

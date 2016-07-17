@@ -5,7 +5,7 @@ permalink: /data/bbob/
 ---
 # The BBOB Example
 
-In this folder, we provide an example application of the *optimizationBenchmarking.org* evaluator. We use it to investigate some of the results of the [Black-Box Optimization Benchmarking (BBOB) 2013](http://coco.gforge.inria.fr/doku.php?id=bbob-2013) .
+In this folder, we provide an example data set of testing the application of the {{ site.projectNameStyled }} evaluator. We use it to investigate some of the results of the [Black-Box Optimization Benchmarking (BBOB) 2013](http://coco.gforge.inria.fr/doku.php?id=bbob-2013) .
 
 ## 1. Example Structure
 

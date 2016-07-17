@@ -5,7 +5,7 @@ permalink: /data/maxSat/
 ---
 # The MAX-3SAT Example
 
-Here we use the *optimizationBenchmarking* framework to investigate the results of some simple algorithms applied to the [MAX-3SAT](http://en.wikipedia.org/wiki/MAX-3SAT) problem.
+Here we use the {{ site.projectNameStyled }} framework to investigate the results of some simple algorithms applied to the [MAX-3SAT](http://en.wikipedia.org/wiki/MAX-3SAT) problem.
 
 ## 1. Example Structure
 
