@@ -43,7 +43,7 @@
 			<cfg:parameter name="kGrouping" value="4 to 8" />
 			<cfg:parameter name="grouping" value="instances by feature values" />
 			<cfg:parameter name="xAxis" value="lg(FEs/n)" />
-			<cfg:parameter name="yAxis" value="F" />
+			<cfg:parameter name="yAxis" value="F/k" />
 			<cfg:parameter name="aggregate" value="median" />
 			<cfg:parameter name="groupBy" value="k" />
 		</cfg:configuration>

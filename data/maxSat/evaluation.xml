@@ -53,7 +53,7 @@
       <cfg:parameter name="minGroups" value="4" />
       <cfg:parameter name="maxGroups" value="8" />
 			<cfg:parameter name="xAxis" value="lg(FEs/n)" />
-			<cfg:parameter name="yAxis" value="F" />
+			<cfg:parameter name="yAxis" value="F/k" />
 			<cfg:parameter name="aggregate" value="median" />
 		</cfg:configuration>
 	</e:module>
