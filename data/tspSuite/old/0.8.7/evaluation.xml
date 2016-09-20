@@ -14,7 +14,7 @@
   <e:module class="all.ecdf.AllECDF">
     <cfg:configuration>
       <cfg:parameter name="xAxis" value="lg NT" />
-      <cfg:parameter name="yAxis" value="L-L.low" />
+      <cfg:parameter name="yAxis" value="F" />
       <cfg:parameter name="goal" value="0" />
       <cfg:parameter name="figureSize" value="page wide" />
     </cfg:configuration>
@@ -23,7 +23,7 @@
   <e:module class="all.ecdf.AllECDF">
     <cfg:configuration>
       <cfg:parameter name="xAxis" value="lg(DEs/n)" />
-      <cfg:parameter name="yAxis" value="L-L.low" />
+      <cfg:parameter name="yAxis" value="F" />
       <cfg:parameter name="goal" value="0" />
       <cfg:parameter name="figureSize" value="page wide" />
     </cfg:configuration>
@@ -34,7 +34,7 @@
       <cfg:parameter name="grouping" value="instances by feature values"/>
       <cfg:parameter name="groupByValuesOf" value="n" />
 			<cfg:parameter name="xAxis" value="lg(FEs/n²)" />
-			<cfg:parameter name="yAxis" value="(L-L.low)/L.low" />
+			<cfg:parameter name="yAxis" value="F" />
 			<cfg:parameter name="aggregate" value="median" />
 			<cfg:parameter name="makeLegendFigure" value="true" />
 		</cfg:configuration>
@@ -45,7 +45,7 @@
       <cfg:parameter name="grouping" value="instances by feature values"/>
       <cfg:parameter name="groupByValuesOf" value="n" />
 			<cfg:parameter name="xAxis" value="lg(FEs/n²)" />
-			<cfg:parameter name="yAxis" value="(L-L.low)/L.low" />
+			<cfg:parameter name="yAxis" value="F" />
 			<cfg:parameter name="aggregate" value="median" />
 			<cfg:parameter name="maxY" value="0.05" />
 			<cfg:parameter name="groupBy" value="n" />
