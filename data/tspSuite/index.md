@@ -5,7 +5,7 @@ permalink: /data/tspSuite/
 ---
 # The TSP Suite Example
 
-Here we provide an example data set from several algorithms solving the Traveling Salesman Problem ([TSP](https://en.wikipedia.org/wiki/Travelling_salesman_problem)) gathered with the [TSP Suite](https://github.com/optimizationBenchmarking/tspSuite). The TSP&nbsp;Suite&nbsp;[<a href="#ref1">1</a>] is the direct predecessor of the  {{ site.projectNameStyled }} framework. Here we conduct experiments based on the 68 smallest-scale symmetric benchmark instances from the [TSPLib](www.iwr.uni-heidelberg.de/groups/comopt/software/TSPLIB95/) benchmark set&nbsp;[2].
+Here we provide an example data set from several algorithms solving the Traveling Salesman Problem ([TSP](https://thomasweise.github.io/research/areas/tsp)) gathered with the [TSP Suite](https://github.com/optimizationBenchmarking/tspSuite). The TSP&nbsp;Suite&nbsp;[<a href="#ref1">1</a>] is the direct predecessor of the  {{ site.projectNameStyled }} framework. Here we conduct experiments based on the 68 smallest-scale symmetric benchmark instances from the [TSPLib](www.iwr.uni-heidelberg.de/groups/comopt/software/TSPLIB95/) benchmark set&nbsp;[2].
 
 ## 1. Example Structure
 
